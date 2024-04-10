@@ -1,0 +1,17 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.22"
+jetbrainsKotlinJvm = "1.9.22"
+# @keep
+ndk = "26.1.10909125"
+
+[libraries]
+activity-compose = "androidx.activity:activity-compose:1.8.2"
+compose-bom = "androidx.compose:compose-bom:2024.01.00"
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrainsKotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

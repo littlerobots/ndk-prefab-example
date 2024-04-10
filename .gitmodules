@@ -1,0 +1,6 @@
+[submodule "java-llama-android/java-llama.cpp"]
+	path = java-llama-android/java-llama.cpp
+	url = git@github.com:kherud/java-llama.cpp.git
+[submodule "llamacpp-android/llama.cpp"]
+	path = llamacpp-android/llama.cpp
+	url = git@github.com:ggerganov/llama.cpp.git
